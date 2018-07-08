@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://mahmoud-ahmed@bitbucket.org/mahmoud-ahmed/bot-apigateway.git
-"
+    "url": "git+https://mahmoud-ahmed@bitbucket.org/mahmoud-ahmed/bot-apigateway.git"
   },
   "author": "Mahmoud Ahmed",
   "license": "ISC",
   "homepage": "https://bitbucket.org/mahmoud-ahmed/bot-apigateway#readme",
   "dependencies": {
+    "amqplib": "^0.5.2",
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
+    "messenger-bot": "^2.5.0",
     "validator": "^10.4.0"
   }
 }
