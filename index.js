@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const app= express()
 const config = require(path.resolve('config','index.js'))
 const sender = require(path.resolve('Broker','BrokerSenderHandler.js'))
+sender.sendMessage('dialogFlow','Hello ')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({
   extended: true
