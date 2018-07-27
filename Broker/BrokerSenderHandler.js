@@ -17,5 +17,16 @@ class sender{
 
         })
     }
+    receiveMessage(queueName){
+        this.connect().then((ch)=>{
+            ch.consume(queueName, async function(msg) {
+              console.log(" [x] Received %s", msg.content.toString());
+          }, {noAck: false});
+
+        })
+
+
+    }
+
 }
 module.exports = new sender()

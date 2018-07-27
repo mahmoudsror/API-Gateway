@@ -1,24 +1,25 @@
 {
   "name": "apigateway",
   "version": "1.0.0",
-  "description": "api gateway for chat bot",
+  "description": "api gateway",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://mahmoud-ahmed@bitbucket.org/mahmoud-ahmed/bot-apigateway.git"
+    "url": ""
   },
   "author": "Mahmoud Ahmed",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/mahmoud-ahmed/bot-apigateway#readme",
+  "homepage": "",
   "dependencies": {
     "amqplib": "^0.5.2",
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "messenger-bot": "^2.5.0",
+    "request": "^2.87.0",
     "validator": "^10.4.0"
   }
 }
